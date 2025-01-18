@@ -1,0 +1,145 @@
+/* Загальні стилі для сторінки */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f5f5f5; /* Світлий фон для всієї сторінки */
+  margin: 0;
+  padding: 0;
+}
+
+/* Основний контейнер на сторінці */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-top: 40px; /* Додаємо відступ зверху */
+}
+
+/* Стилі для заголовка */
+h1 {
+  text-align: center;
+  color: #333;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+/* Стилі для текстових параграфів */
+p {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Лінки */
+a {
+  color: white; /* Зелений колір для лінків */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Стилі для кнопки на сторінці */
+button {
+  padding: 12px 20px;
+  background-color: #4e75ff; /* Колір кнопки */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #3c62cc; /* Темніший колір при ховері */
+}
+
+/* Стилі для блоку з посиланнями */
+.links {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.links a {
+  margin: 0 15px;
+  font-size: 16px;
+  color: #4e75ff;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+/* Стилі для форми (якщо є) */
+form {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-top: 40px;
+}
+
+form h2 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+form button[type="submit"] {
+  width: auto;
+  padding: 12px 20px;
+  background-color: #4e75ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+
+form button[type="submit"]:hover {
+  background-color: #3c62cc;
+}
+
+form .form-footer {
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+}
+
+form .form-footer a {
+  color: #4caf50;
+  text-decoration: none;
+}
+
+form .form-footer a:hover {
+  text-decoration: underline;
+}

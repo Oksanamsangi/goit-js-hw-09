@@ -1,0 +1,86 @@
+/* Загальні стилі для форми */
+form {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Стилі для заголовка форми */
+form h2 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Стилі для інпутів */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Зменшене поле для повідомлень */
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  height: 100px; /* Зменшена висота */
+  box-sizing: border-box;
+}
+
+/* Стилі для кнопки submit */
+button[type="submit"] {
+  width: auto;
+  padding: 12px 20px;
+  background-color: #4e75ff; /* Змінено колір кнопки */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+
+/* Ховер-ефект для кнопки */
+button[type="submit"]:hover {
+  background-color: #3c62cc; /* Темніший відтінок для ховеру */
+}
+
+/* Стилі для тексту під формою (якщо є) */
+form .form-footer {
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+}
+
+form .form-footer a {
+  color: #4caf50;
+  text-decoration: none;
+}
+
+form .form-footer a:hover {
+  text-decoration: underline;
+}
+
+/* Розміщення кнопки зліва під формою */
+button[type="submit"].left-align {
+  display: block;
+  margin-top: 20px;
+  margin-left: 0; /* Кнопка ліворуч */
+  text-align: left;
+}
