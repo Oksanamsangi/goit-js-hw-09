@@ -1,12 +1,10 @@
-/* Загальні стилі для сторінки */
 body {
   font-family: "Arial", sans-serif;
-  background-color: #f5f5f5; /* Світлий фон для всієї сторінки */
+  background-color: #f5f5f5;
   margin: 0;
   padding: 0;
 }
 
-/* Основний контейнер на сторінці */
 .container {
   width: 100%;
   max-width: 1200px;
@@ -15,7 +13,7 @@ body {
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  margin-top: 40px; /* Додаємо відступ зверху */
+  margin-top: 40px;
 }
 
 /* Стилі для заголовка */
@@ -26,7 +24,6 @@ h1 {
   margin-bottom: 30px;
 }
 
-/* Стилі для текстових параграфів */
 p {
   font-size: 18px;
   color: #555;
@@ -34,9 +31,8 @@ p {
   margin-bottom: 20px;
 }
 
-/* Лінки */
 a {
-  color: white; /* Зелений колір для лінків */
+  color: white;
   text-decoration: none;
   font-weight: bold;
 }
@@ -45,10 +41,9 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Стилі для кнопки на сторінці */
 button {
   padding: 12px 20px;
-  background-color: #4e75ff; /* Колір кнопки */
+  background-color: #4e75ff;
   color: white;
   border: none;
   border-radius: 5px;
@@ -60,10 +55,9 @@ button {
 }
 
 button:hover {
-  background-color: #3c62cc; /* Темніший колір при ховері */
+  background-color: #3c62cc;
 }
 
-/* Стилі для блоку з посиланнями */
 .links {
   display: flex;
   justify-content: center;
@@ -80,7 +74,6 @@ button:hover {
   text-decoration: underline;
 }
 
-/* Стилі для форми (якщо є) */
 form {
   width: 100%;
   max-width: 400px;
@@ -136,7 +129,7 @@ form .form-footer {
 }
 
 form .form-footer a {
-  color: #4caf50;
+  color: #3c62cc;
   text-decoration: none;
 }
 
